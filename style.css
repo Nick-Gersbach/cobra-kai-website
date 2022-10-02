@@ -133,6 +133,7 @@ Header Showcase
 
 .showcase-img img {
   width: 400px;
+  border-radius: 50%;
 }
 
 /* 
