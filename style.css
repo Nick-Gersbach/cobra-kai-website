@@ -140,6 +140,51 @@ Header Showcase
 
 
 
+Our Code
+
+
+
+*/
+
+#our-code {
+  margin-top: 6rem;
+}
+
+#our-code h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+#our-code p {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 4rem;
+}
+
+.code-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+}
+
+.code-img img {
+  width: 325px;
+  border-radius: 28px;
+}
+
+.code-card {
+  text-align: center;
+}
+
+.code-card h3 {
+  font-size: 24px;
+  padding-top: 10px;
+}
+/* 
+
+
+
 Mobile Styles
 
 
@@ -157,6 +202,23 @@ Mobile Styles
 
   .showcase-btn {
     margin-bottom: 4rem;
+  }
+
+  .code-cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #our-code p {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 4rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -193,6 +255,10 @@ Mobile Styles
 
   .showcase-img img {
     width: 250px;
+  }
+
+  #our-code p {
+    width: 70%;
   }
 }
 
@@ -266,5 +332,9 @@ Mobile Styles
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 4rem;
+  }
+
+  #our-code p {
+    width: 100%;
   }
 }
