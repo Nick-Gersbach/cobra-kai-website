@@ -140,7 +140,7 @@ Header Showcase
 
 
 
-Our Code
+Cobra Kai Code
 
 
 
@@ -148,6 +148,16 @@ Our Code
 
 #our-code {
   margin-top: 6rem;
+}
+
+.red-line {
+  background: #ed1c25;
+  width: 50px;
+  height: 3px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem;
 }
 
 #our-code h2 {
@@ -181,6 +191,48 @@ Our Code
   font-size: 24px;
   padding-top: 10px;
 }
+/* 
+
+
+
+
+
+Special Message
+
+
+
+
+
+*/
+
+#special-message {
+  background: linear-gradient(rgba(20, 20, 20, 0.9), rgba(20, 20, 20, 0.9)),
+    url(./img/cobra-kai-dojo.jpeg) no-repeat center center/cover;
+  height: 100vh;
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kreese-quote {
+  color: #fff;
+  width: 70%;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.message-image img {
+  width: 400px;
+  border-radius: 50%;
+}
+
 /* 
 
 
@@ -260,6 +312,28 @@ Mobile Styles
   #our-code p {
     width: 70%;
   }
+
+  .message-content-container {
+    flex-direction: column-reverse;
+  }
+
+  .kreese-quote {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #special-message {
+    height: 100%;
+  }
+  .message-image img {
+    width: 300px;
+    margin-top: 3rem;
+  }
+
+  .message-text {
+    margin-bottom: 3rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -334,7 +408,24 @@ Mobile Styles
     margin-bottom: 4rem;
   }
 
+  #our-code h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
   #our-code p {
     width: 100%;
+  }
+
+  #special-message {
+    height: 100%;
+  }
+  .message-image img {
+    width: 300px;
+    margin-top: 3rem;
+  }
+
+  .message-text {
+    margin-bottom: 3rem;
   }
 }
