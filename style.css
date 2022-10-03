@@ -237,6 +237,59 @@ Special Message
 
 
 
+
+
+Special Message
+
+
+
+
+
+*/
+
+#cta {
+  margin-top: 6rem;
+}
+
+.cta-container {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3px;
+  margin-bottom: 8rem;
+  opacity: 0.9;
+}
+
+.cta-text {
+  padding: 5rem;
+}
+
+.cta-text h3 {
+  padding-bottom: 0.5rem;
+  font-size: 24px;
+}
+
+.cta-btn {
+  padding: 5rem;
+}
+
+.cta-btn button {
+  background: #ed1c25;
+  color: #fff;
+  width: 120px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* 
+
+
+
 Mobile Styles
 
 
@@ -333,6 +386,20 @@ Mobile Styles
 
   .message-text {
     margin-bottom: 3rem;
+  }
+
+  .cta-container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cta-btn {
+    padding: 3rem;
+  }
+
+  .cta-text {
+    padding: 3rem;
   }
 }
 
