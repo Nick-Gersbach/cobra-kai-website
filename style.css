@@ -286,6 +286,25 @@ Special Message
   font-size: 18px;
 }
 
+footer {
+  background: black;
+  text-align: center;
+  opacity: 0.9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  padding: 1.5rem 0rem;
+}
+
+.footer-img img {
+  width: 40px;
+  padding-left: 0.5rem;
+}
+
 /* 
 
 
@@ -403,7 +422,7 @@ Mobile Styles
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .menu-btn {
     display: block;
   }
@@ -423,7 +442,7 @@ Mobile Styles
     left: 0px;
     background: black;
     width: 80%;
-    height: 100%;
+    height: 700px;
     padding: 5px 20px;
     transform: translateX(-500px);
     transition: transform 0.4s ease-in-out;
